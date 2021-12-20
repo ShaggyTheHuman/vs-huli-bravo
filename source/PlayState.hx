@@ -393,6 +393,10 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
+				
+			case 'creper': //Week8
+				var creperbg:BGSprite = new BGSprite('creperbg'), -600, -200, 0.9, 0.9);
+				add(creperbg);
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
